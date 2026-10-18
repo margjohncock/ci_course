@@ -1,9 +1,7 @@
 name: Doc preview
 
 on:
-  push:
-    branches: ["main"]
-  pull:
+  pull_request:
     branches: ["main"]
   workflow_dispatch:
 
